@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d0d0d;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Leftttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt*/
+
+.nav-tab {
+  padding: 0 35px 35px 35px;
+}
+.sidenav {
+  transition: 0.5s;
+  padding-top: 30px;
+  top: 0px;
+  bottom: 0;
+  left: 0px;
+}
+/* .control {
+  left: -21%;
+} */
+img {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+/* righttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+.meal {
+  cursor: pointer;
+}
+.card_content {
+  cursor: pointer;
+}
+.card_content .meal-layer {
+  top: 100%;
+  background-color: #f9f6f6ca;
+  transition: top 0.5s;
+}
+.card_content:hover .meal-layer {
+  top: 0%;
+}
+.left_side {
+  position: relative;
+  z-index: 44444444444444444444444444444444;
+}
+/* Resippppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppe */
+.defination {
+  margin: 24px 0px 0px;
+  padding: 0px 12px;
+}
+.alert {
+  width: fit-content;
+}
+
+.meal-layer {
+  cursor: pointer;
+}
+/* Any thingggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg */
+li {
+  cursor: pointer;
+}
+.search input::placeholder {
+  color: #ffff !important;
+}
+.para_cat {
+  font-size: 14px;
+}
